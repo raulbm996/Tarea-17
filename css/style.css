@@ -1,0 +1,254 @@
+
+.toggle{
+    display: none;
+}
+
+.boton1{
+    position: absolute;
+    top: 3%;
+    left: 75%;
+    width: 85px;
+    height: 25px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+
+}
+.boton2{
+    position: absolute;
+    top: 3%;
+    left: 82%;
+    width: 100px;
+    height: 25px;
+    border-color: yellow;
+    color: black;
+}
+.Registro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: #f4f4f4;
+}
+.Registro1{
+    width: 100%;
+    max-width: 25%;
+    padding: 2%;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8%;
+    text-align: center;
+}
+.InicioSesion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    background-color: #f4f4f4;
+}
+.InicioSesion1{
+    width: 100%;
+    max-width: 25%;
+    padding: 2%;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8%;
+    text-align: center;
+}
+.label{
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#tabla1 {
+    margin-left:auto;
+    margin-right:auto;
+}
+#tabla1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo  {
+    text-align: center;
+}
+.restricted {
+    display: none;
+    margin-left: 175px;
+    margin-right: 125px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+.hr2{
+    margin-left: 0.5%;
+}
+.hr3{
+    margin-left: 33%;
+}
+.hr4{
+    height: 100%;
+    background-color: black;
+    border: none;
+}
+.hr5{
+    height: 5px; 
+    border: none; 
+    background: linear-gradient(to right, black 20%, transparent 20%, transparent 80%);
+}
+.img1 {
+margin-left: 25%;
+}
+
+.img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -58%;
+}
+.img4 {
+    display: block;
+    margin-left: 72%;
+    margin-top: -73%;
+}
+.subimg-2 {
+    margin-top: auto;
+    margin-left: 36%;
+}
+.tren{
+    display: block;
+    margin-left: 53%;
+    margin-top: -38.5%;
+}
+.pf-1 a{
+    text-decoration: none;
+    color: black;
+}
+.pf-1{
+    margin-left: 2%;
+}
+.pf1-pt2 {
+    margin-left: 3%;
+    text-align: center;
+}
+.pf-2 a{
+    text-decoration: none;
+    color: black;
+}
+.pf-2{
+    margin-left: 33%;
+}
+.pf-3 a{
+    text-decoration: none;
+    color: black;
+}
+.pf-3{
+    margin-left: 72%;
+}
+.pf-4{
+    margin-left: 5%;
+}
+.pf-5{
+    margin-left: 5%;
+}
+.subtitulo{
+    font-size: 20px;
+    margin-left: 2%;
+    text-align: center;
+}
+.presidenciales{
+    margin-left: 13%;
+    margin-right: 13%;
+    height: 2px;
+    background-color: black;
+}
+.img-eeuu{
+    margin-left: 10%;
+}
+.hr-españa{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.hr-españa1{
+    height: 5px; 
+    border: none; 
+    background: linear-gradient(to right, black 20%, transparent 20%, transparent 80%);
+    margin-left: 13%;
+
+}
+.España{
+    font: bold;
+    margin-left: 13%;
+}
+.Ribera{
+    margin-left: 13%;
+    margin-right: 68%;
+}
+.ribera-foto{
+    margin-left: 37%;
+    margin-top: -220%;
+}
+.texto-foto{
+    margin-left: 37%;
+    margin-right: 33%;
+}
+.hr-españa2{
+    height: 8px; 
+    border: none; 
+    background: linear-gradient(to right, black 20%, transparent 20%, transparent 80%);
+    margin-left: 70%;
+    margin-top: -33%;
+    width: 500px;
+}
+.texto-españa2 {
+    margin-left: 70%;
+}
+.hr-españa3{
+    height: 5px; 
+    border: none; 
+    background: linear-gradient(to right, black 20%, transparent 20%, transparent 80%);
+    margin-left: 70%;
+    width: 500px;
+}
+.texto-opinion{
+    margin-left: 70%;
+    margin-right: 1%
+}
+.editorial{
+    margin-left: 18%;
+}
+.hr-editorial{
+    margin-left: 13%;
+    margin-right: 69%;
+}
+.tribuna{
+    margin-left: 13%;
+}
+.foto-tribuna{
+    margin-top: -50%;
+    margin-left: 35%;
+    display: block;
+}
+.texto-tribuna{
+    margin-left: 35%;
+    margin-right: 25%;
+}
+.texto-tribuna1{
+    margin-top: -41%;
+    margin-left: 80%;
+    margin-right: 1%;     
+}
+.foto-economía{
+    margin-top: -78%;
+    margin-left: 35%;
+    display: block;
+}

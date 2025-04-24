@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../.css/style.css">
+</head>
+<h2 class="titulo">La fiebre del oro envenena el Dorado africano</h2>
+<p class="pf1-pt2">
+    En el corazón de la selva de Ghana, las minas ilegales contaminan los ríos y enferman a una población empobrecida,<br>
+    que apenas participa de un botín que a menudo acaba fuera del país. A mes y medio de las elecciones, crece la <br>
+    indignación entre la población y las protestas en contra del extractivismo salvaje<br>
+</p>
+
+<p class="pf1-pt2">
+    El barro amarillento y envenenado lo cubre casi todo. Cubre las motos forradas con bolsas de plástico en las que viajan<br>
+    jóvenes amontonados con detectores de metales al hombro y botas katiuskas, obsequio de alguna empresa china. Cubre también<br> 
+    las mangueras corrugadas que atraviesan las minas de oro a cielo abierto y encharcan esta selva sofocante de caucho y cacao,<br> 
+    que se extiende de norte a sur de Ghana, junto a la frontera con Costa de Marfil.<br><br>
+    Aquí el suelo está preñado de oro, pero en la superficie la pobreza es espeluznante. Un recorrido de tres días por el corazón<br> 
+    de la selva del oro ghanesa sirve para comprobar que este rincón del planeta es el escenario del extractivismo más salvaje por<br> 
+    parte de empresas extranjeras y locales. Que es una catástrofe ecológica local con reverberaciones globales.<br><br>
+
+    <div id="restricted-content" class="restricted">
+    En los pueblos, la comida se vende por unidades y el agua en sobrecitos de 500 mililitros. Los jóvenes tienen pocas opciones más<br> 
+    para ganarse la vida que la mina infestada de mercurio y los niños crecen a merced de las llamadas enfermedades tropicales desatendidas (ETD),<br> 
+    las que atacan a los pobres entre los más pobres. Sin agua corriente ni carreteras decentes que permitan llegar a tiempo a una clínica<br> 
+    a dar a luz o transportar medicamentos vitales, la costa dorada, como la apodaron las potencias coloniales, es el vivo retrato de la<br> 
+    paradoja de la abundancia.<br><br>
+    Los estragos de la minería ilegal son tan evidentes que el galamsey, como se conoce aquí a las pequeñas explotaciones ilegales, se ha<br> 
+    convertido en un asunto político de primer orden en Ghana, dando pie a fuertes protestas en la capital y a promesas por parte del Gobierno<br> 
+    a mes y medio de las elecciones. Es además una bandera, el símbolo de un malestar más profundo y del hastío de una juventud sin futuro frente<br> 
+    a unos gobernantes a los que acusan de corrupción y de ser cómplices de destruir el país y vender sus recursos, con una galopante crisis económica<br> 
+    como telón de fondo. “Estamos destrozando nuestro medio ambiente,. No lo estamos impidiéndolo por intereses personales. Es un cártel en el que hay<br> 
+    muchos implicados […] El dinero sale fuera del país. Si se quedara aquí seríamos una potencia del primer mundo. Es un tipo de esclavitud de la era moderna”,<br> 
+    piensa Lydia Mosi, profesora de biología molecular de la Universidad de Ghana.<br>
+    </div>
+</p>
+<div>
+    <button id="subscribe-btn">Suscríbete para leer más</button>
+</div>
+<script>
+    document.getElementById("subscribe-btn").addEventListener("click", function() {
+        const userSubscribed = confirm("¿Estás suscrito?");
+
+        if (userSubscribed) {
+            document.getElementById("restricted-content").style.display = "block";
+            this.style.display = "none";
+           } else {
+            alert("Para ver este contenido necesitas subscribirte");
+           }
+
+    });
+</script>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../.css/style.css">
+</head>
+<h2 class="titulo"> El voto adelantado revela la movilización de los republicanos en los estados claves</h2>
+<p class="pf1-pt2">42 millones de estadounidenses han participado ya en las elecciones en el conjunto del país</p>
+<img class="img1" src="../.src/Centro Electoral.avif" width="800" height="400">
+
+<p class="pf1-pt2">
+    Más de 66 millones de personas han participado en el voto anticipado para las elecciones de Estados Unidos,lo que representa el<br>
+    segundo mayor número en la historia, solo superado por los 74 millones registrados en 2020 durante la pandemia. El significativo<br>
+    volumen de votantes sugiere una elevada participación en los comicios, que tendrán lugar el próximo 5 de noviembre. <br><br>
+
+    La cifra de votantes corresponde al 43% de la participación total de las elecciones de 2020. El análisis de estos datos revela<br>
+    diferencias en los métodos de votación entre las afiliaciones políticas: los votantes republicanos prefieren emitir su voto<br>
+    en persona, aunque sea de forma anticipada; y los demócratas tienden a optar por el voto por correo. Esta diferencia de hábitos<br> 
+    podría influir en la dinámica electoral.<br>
+
+<div id="restricted-content" class="restricted">
+
+    De los 26 estados que reportan la afiliación de votantes, los demócratas han registrado casi 13 millones de sufragios, en comparación<br> 
+    con aproximadamente 12 millones de los republicanos. La escasa diferencia contrasta con el liderazgo de Biden sobre Trump en las<br> 
+    elecciones de 2020, donde el actual presidente tenía una ventaja de 20 puntos en este mismo período.<br><br>
+
+    <h3>Estados clave</h3><br>
+    La movilización del electorado republicano ha sido notable, especialmente en estados clave como Arizona, Carolina del Norte y Nevada,<br>
+    donde han fomentado el voto anticipado en persona, motivados por dudas sobre la validez del voto por correo. En Pensilvania, un estado<br>
+    crucial para ambos candidatos, el registro de votantes se inclina actualmente hacia los demócratas. No obstante, no se dispone de<br>
+    información sobre la afiliación en estados estratégicos como Wisconsin, Michigan y Georgia.<br><br>
+    La igualdad en las encuestas entre la candidata demócrata, Kamala Harris, y el candidato republicano, Donald Trump, ha definido esta elección,<br>
+    con un empate técnico que podría decidirse por un puñado de votos. Pensilvania se perfila como un estado crucial en esta contienda, similar a<br>
+    cómo fue Florida en las elecciones entre Bush y Gore en 2000.<br><br>
+
+    Con la jornada electoral acercándose, la alta participación en el voto anticipado es un indicativo de que la contienda será reñida, y cada voto<br>
+    contará en esta crucial elección.<br>
+</div>
+</p>
+<div>
+    <button id="subscribe-btn">Suscríbete para leer más</button>
+</div>
+<script>
+    document.getElementById("subscribe-btn").addEventListener("click", function() {
+        const userSubscribed = confirm("¿Estás suscrito?");
+
+        if (userSubscribed) {
+            document.getElementById("restricted-content").style.display = "block";
+            this.style.display = "none";
+           } else {
+            alert("Para ver este contenido necesitas subscribirte");
+           }
+
+    });
+</script>

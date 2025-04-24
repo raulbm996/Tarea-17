@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../.css/style.css">
+</head>
+<body>
+
+    <p id="fechaHora"></p>
+
+    <script>
+        function actualizarFechaHora(){
+            const fecha = new Date();
+            const opcionesFecha = { year: 'numeric', month: 'long', day: 'numeric' };
+            const opcionesHora = {hour: 'numeric', minute: 'numeric', second:'numeric'};
+
+            const fechaFormateada = fecha.toLocaleDateString('es-ES', opcionesFecha);
+            const horaFormateada = fecha.toLocaleTimeString('es-ES', opcionesHora);
+
+            document.getElementById("fechaHora").textContent = `${fechaFormateada} | ${horaFormateada}`;
+        }
+            actualizarFechaHora();
+            setInterval(actualizarFechaHora, 1000);
+    
+    </script>
+
+    <button id="Suscríbete-btn" class="boton1">Suscríbete</button>
+    <script>
+        document.getElementById("Suscríbete-btn").addEventListener("click", function() {
+            window.location.href = "Suscríbete.html";
+        });
+    </script>
+    </div>
+    <div>
+    <button id="IniciarSesion-btn" class="boton2">Iniciar Sesión</button>
+    <script>
+        document.getElementById("IniciarSesion-btn").addEventListener("click", function() {
+            window.location.href = "IniciarSesion.html";
+        });
+    </script>
+    </div>
+    <header>
+    <h1 class="titulo">
+     La Tierra
+    </h1>
+    <div id="tabla">
+        <table border="0" id="tabla1">
+            <nav>
+            <tr class="centrar">
+                <td href="España.html"><a href="España.html" target="_blank">España</a></td>
+                <td href="Opiniones.html"><a href="Opiniones.html" target="_blank">Opiniones</a></td>
+                <td href="Economía.html"><a href="Economía.html" target="_blank">Economía</a></td>
+                <td href="Salud.html"><a href="Salud.html" target="_blank">Salud</a></td>
+                <td href="Deportes.html"><a href="Deportes.html" target="_blank">Deportes</a></td>
+                <td href="Conflictos.html"><a href="Conflictos.html" target="_blank">Conflictos</a></td>
+            </tr>
+            </nav>
+        </table>
+    </div>
+    </header>
+    <hr>
+        <br>
+        <main>
+        <section>
+            <div class="pf-1">
+                <h2 href="EE UU y la UE presionan para un alto el fuego en Gaza tras la muerte del líder de Hamás.html">
+                <a href="EE UU y la UE presionan para un alto el fuego en Gaza tras la muerte del líder de Hamás.html" target="_blank">
+                    <mark>T</mark> EE UU y la UE presionan para un <br> alto el fuego tras la muerte del líder <br>de Hamás
+                </a></h2>
+                <h6>
+                MARC BASSETS|Berlín
+                </h6>
+                <p>
+                “Hagamos de este momento una oportunidad para <br> buscar la paz, un futuro mejor para Gaza sin Hamás”, <br> dice Joe Biden en Berlín
+                </p>
+                <hr width="325px" class="hr2">
+            </div>
+        </section>
+        <section>
+            <div class="pf-1">
+                <img src="../.src/DORADO.avif" width="350" height="200">
+                <h3 href="La fiebre del oro envenena el Dorado africano.html">
+                <a href="La fiebre del oro envenena el Dorado africano.html" target="_blank">
+                    <mark>T</mark> Especial|La fiebre del oro <br>envenena el Dorado africano 
+                </a></h3>
+                <h6>
+                    ANA CARBAJOSA|Enchi(Ghana)
+                </h6>
+                <p>
+                    En el corazón de la selva de Ghana, las minas ilegales <br> contaminan los ríos y enferman a una población <br>empobrecida,que apenas participa de un botín<br> que a menudo acaba fuera del país. 
+                </p>
+            </div>
+        </section>
+                <hr width="335px" class="pf-1">
+        <section>
+            <div class="pf-1">
+                <h3 href="Errejón.html">
+                <a href="Errejón.html" target="_blank">
+                    <mark>T</mark> Sumar afronta su semana más difícil tras <br> la caída de Errejón
+                </a></h3>
+                <h6>
+                    Paula Chouza|Madrid
+                </h6>
+                <p>
+                    Díaz reúne este lunes a su grupo, en pleno debate <br> para elegir portavoz y ante la creciente presión interna.
+                </p>
+                <h5>
+                    La periodista Cristina Fallarás publica un libro con testimonios <br> de mujeres sobre agresiones sexuales
+                </h5>
+            </div>
+        </section>
+        <section>
+            <img class="img3" src="../.src/Centro Electoral.avif" width="500" height="200">
+            <div>
+                <h6 class="subimg-2">Colas para votar en un centro electoral de Chicago, el 24 de octubre.NAM Y. HUH (AP/LAPRESSE)
+                </h6>
+                <h3 href="El voto adelantado revela la movilización de los republicanos en los Estados clave.html" class="pf-2">
+                    <a href="El voto adelantado revela la movilización de los republicanos en los Estados clave.html" target="_blank">
+                    <mark>T</mark> El voto adelantado revela la movilización de los republicanos <br> en los Estados clave
+                    </a></h3>
+                <h6 class="pf-2">
+                    Miguel Jiménez|Washington
+                </h6>
+                <p class="pf-2">
+                    Los seguidores de Trump responden a las llamadas a participar y recortan <br> distancias con los demócratas. Más de 41 millones de ciudadanos ya han votado.
+                </p>
+                <hr class="hr3" width="520px">
+                <video class="pf-2" src="../.src/video.mp4" width="400px" autoplay loop controls></video>
+                <h3 href="Resultados históricos de las presidenciales.html" class="pf-2">
+                    <a href="Resultados históricos de las presidenciales.html" target="_blank">
+                    <mark>T</mark> | Resultados históricos de las presidenciales 
+                    </a></h3>
+                <h6 class="pf-2">
+                    Ignacio Povedano / Carlos Muñoz
+                </h6>
+                <hr class="hr3" width="520px">
+                <h3 class="pf-2" href="mitin de Trump.html">
+                <a href="mitin de Trump.html" target="_blank">
+                    <mark>T</mark> Indignación por los insultos a Puerto Rico en un mitin de Trump
+                </a></h3>
+                <p class="pf-2">
+                    A ocho días de los comicios, los candidatos se centran en los Estados clave: Harris <br> regresa a Míchigan y el republicano viaja a Georgia
+                </p>
+                <hr class="hr3" width="520px">
+                <iframe class="pf-2" width="200" height="175" src="https://www.youtube.com/embed/rxKWHwf7qyA?si=0O3Uo0rhW3xLKW1P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            
+                </div>
+                <h5 class="pf-2">Vídeo |Qué piensan del aborto Harris y Trump</h5>
+        </section>
+        <section>
+            <img class="img4" src="../.src/Desahucio.avif" width="350" height="175">
+            <div class="pf-3">
+                <h3 href="El Constitucional rescata ‘in extremis’ a la familia de Fátima del desahucio.html">
+                <a href="El Constitucional rescata ‘in extremis’ a la familia de Fátima del desahucio.html" target="_blank">
+                   <mark>T</mark> El Constitucional rescata ‘in extremis’ a la <br> familia de Fátima del desahucio
+                </a></h3>
+                <h6>
+                    Miguel González|Madrid
+                </h6>
+                <p>
+                    El tribunal suspende el desalojo de una pareja de inmigrantes marroquíes con cinco hijos en Vallecas
+                </p>
+                <hr>
+                <h4>
+                    Hoy en La Tierra
+                </h4>
+                <h3>
+                    ‘Podcast’ | De la lucha antidesahucio al relato antiokupa en una década
+                </h3>
+                <p>
+                    El debate sobre el alto precio del alquiler convive hoy con el miedo a la ocupación de la vivienda
+                </p>
+                <audio src="../.src/Podcast.m4a" controls></audio>
+                <hr>
+                <h3 href="Balón de oro.html">
+                <a href="Balón de oro.html" target="_blank">
+                  <mark>T</mark>  Ni Vinicius ni el Madrid asisten al Balón de Oro en un plante sorprendente
+                </a></h3>
+                <img src="../.src/Vinicius.avif" width="350" height="175">
+                <h6>
+                    Lorenzo Calonge|Madrid
+                </h6>
+                <p>
+                    El club cancela el viaje al enterarse de que Rodri se perfila como ganador
+                </p>
+            </div>
+        </main>
+</body>
+
+
+
